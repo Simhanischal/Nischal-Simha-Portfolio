@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/Logo.png">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="./style.css">
+    <title>Nischal Simha | FrontEnd Developer Portfolio</title>
+    </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item" id="nav-home"><a class="link navbar-link" href="#home">Home</a></li>
+        <li class="nav-item" id="nav-skills"><a class="link navbar-link" href="#skills">Skills</a></li>
+        <li class="nav-item" id="nav-projects"><a class="link navbar-link" href="#projects">Projects</a></li>
+        <li class="nav-item" id="nav-contact"><a class="link navbar-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!--Home Section-->
+    <section class="home-section">
+      <div id="home">
+        <div id="my-info">
+          <h3 id="my-greeting">Hello 👋, I am</h3>
+          <h1 id="my-name">Nischal Simha</h1>
+          <h3 id="my-headline">Front End Developer from India </h3>
+          <button id="talk-button"><a class="link" href="mailto:nischalsimhas@gmail.com">Let's talk ☕</a></button> 
+          <button id="resume-button"><a class="link" href="#" target="_blank">Resume 📝</a></button>
+        </div>
+        
+        <div id="avatar">
+          <img id="my-bitmoji" src="./images/Nischal_Bitmoji.png" alt="My Bitmoji">
+        </div>
+      </div> 
+    </section>
+
+    <!--Skills Section-->
+    <section>
+      <header id="skills-heading">
+        <h1>Skills</h1>
+      </header>
+      <div id="skills" class="skill-list">
+        <div class="skill-item">
+          <header class="skill"><h2>HTML</h2></header>
+          <img class="skill-logo" src="./images/html.png" alt="HTML">
+        </div>
+        <div class="skill-item">
+          <header class="skill"><h2>JavaScript</h2></header>
+          <img class="skill-logo" src="./images/JS.png" alt="JavaScript">
+        </div>
+        <div class="skill-item">
+          <header class="skill"><h2>React</h2></header>
+          <img class="skill-logo" src="./images/React.png" alt="React">
+        </div>
+      </div>
+    </section>
+
+    <!--Projects Section-->
+    <section>
+      <header id="projects-heading">
+        <h2>Projects</h2>
+      </header>
+      <div id="projects" class="projects-list">
+        <div class="project-item">
+          <img class="project-image" src="./images/SweatSchoolPOC.PNG" alt="Sweat School POC" >
+          <header class="project-title"><h3>Sweat School POC</h3></header>
+          <summary class="project-description">Designed  and  Developed a  website  POC  for  a  Gym/Fitness  School  using React,  Material  UI  and  Styled Components.</summary>
+          <div class="project-capsules">
+            <div class="capsule">React</div> 
+            <div class="capsule">Material UI</div> 
+            <div class="capsule">React Router</div>
+          </div>
+          <div class="project-links">
+            <button class="project-link-btn live-demo-btn"><a class="link" href="https://sweat-school.netlify.app/" target="_blank">Live Demo</a></button>
+            <button class="project-link-btn github-code-btn"><a class="link" href="https://github.com/Simhanischal/Sweat-School-POC" target="_blank">Github</a></button>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <img class="project-image" src="./images/ChatBot UI.PNG" alt="ChatBot UI" >
+          <header class="project-title"><h3>ChatBot UI</h3></header>
+          <summary class="project-description">A frontend only prototype for a ChatBot application created using React and Material UI. The Bot can be easily configured to integrate it with a working API.</summary>
+          <div class="project-capsules">
+            <div class="capsule">React</div> 
+            <div class="capsule">Material UI</div> 
+            <div class="capsule">Styled Components</div>
+          </div>
+          <div class="project-links">
+            <button class="project-link-btn live-demo-btn"><a class="link" href="https://dummy-chatbot-ui.netlify.app/" target="_blank">Live Demo</a></button>
+            <button class="project-link-btn github-code-btn"><a class="link" href="https://github.com/Simhanischal/Chatbot-UI" target="_blank">Github</a></button>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <img class="project-image" src="./images/KeepNotes.PNG" alt="Keep Notes" >
+          <header class="project-title"><h3>Keep Notes</h3></header>
+          <summary class="project-description">A minimalistic version of Google Keep which is a note keeping application with CRUD operations made using vanilla JavaScript and localStorage.</summary>
+          <div class="project-capsules">
+            <div class="capsule">JavaScript</div> 
+            <div class="capsule">HTML</div> 
+            <div class="capsule">CSS</div>
+          </div>
+          <div class="project-links">
+            <button class="project-link-btn live-demo-btn"><a class="link" href="https://simhanischal.github.io/KeepNotes/" target="_blank">Live Demo</a></button>
+            <button class="project-link-btn github-code-btn"><a class="link" href="https://github.com/Simhanischal/KeepNotes" target="_blank">Github</a></button>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <img class="project-image" src="./images/Rapid Typing Game.PNG" alt="Rapid Typer Game" >
+          <header class="project-title"><h3>Rapid Typer Game</h3></header>
+          <summary class="project-description">A vanilla JavaScript typing game with different levels where a random word has to be typed within a certain time and for each correct word you get extra time and corresponding score is added.</summary>
+          <div class="project-capsules">
+            <div class="capsule">JavaScript</div> 
+            <div class="capsule">HTML</div> 
+            <div class="capsule">CSS</div> 
+            <div class="capsule">Font Awesome</div>
+          </div>
+          <div class="project-links">
+            <button class="project-link-btn live-demo-btn"><a class="link" href="https://simhanischal.github.io/RapidTyperGame/" target="_blank">Live Demo</a></button>
+            <button class="project-link-btn github-code-btn"><a class="link" href="https://github.com/Simhanischal/RapidTyperGame" target="_blank">Github</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Section-->
+    <section>
+      <header id="contact-heading">
+        <h1>Social Handles</h1>
+      </header>
+      <div id="contact">
+        <button class="contact-btn">
+          <a class="link" href="https://linkedin.com/in/nischal-simha-79753662" target="_blank">Linkedin</a>
+        </button>
+        <button class="contact-btn">
+          <a class="link" href="https://github.com/Simhanischal" target="_blank">Github</a>
+        </button>
+        <button class="contact-btn">
+          <a class="link" href="mailto:nischalsimhas@gmail.com">Email</a>
+        </button>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <img class="footer-logo" src="./images/Logo.png" alt="Footer Logo">
+      <h5 class="footer-text">Made with ❤️ by Nischal</h5>
+    </footer>
+
+  </body>
+</html>
