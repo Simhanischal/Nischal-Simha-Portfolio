@@ -24,24 +24,6 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-@keyframes fadeInLeft{
-    from{
-      opacity: 0;
-      transform: translate3d(-100%, 0, 0);
-    }
-  
-    to{
-      opacity: 1;
-      transform: translate3d(0, 0, 0);
-    }
-}
-
-.is-visible{
-    animation-name: fadeInLeft;
-    animation-duration: 1 * 1.3;
-    animation-timing-function: ease-in-out;
-}
-
 @keyframes heartBeat{
     0%{
       transform: scale(1);
@@ -64,12 +46,6 @@ body{
     }
 }
   
-/* .heartBeat{
-    animation-name: heartBeat;
-    animation-duration: 1 * 1.3;
-    animation-timing-function: ease-in-out;
-} */
-
 .link{
     text-decoration: none;
     color: var(--link-text-color);
